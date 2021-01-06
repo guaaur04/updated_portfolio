@@ -2,17 +2,19 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  
+
     }
   
   .navbar{
-  background-color: azure;
+  background-color: #06D6A0;
   }
+
 
   h1 {
       padding: auto;
       margin: 6px;
       border-bottom: 2px solid black;
+      font-weight: 200;
       
   }
   
@@ -72,9 +74,6 @@
     color: white;
   } */
   
-  .row-4{
-    float: left;
-  }
   .image-thumbnail {
     width: 350px;
     height: 350px;
@@ -87,7 +86,7 @@
           left: 0;
           bottom: 0;
           width: 100%;
-          background-color:royalblue;
+          background-color: #118AB2;
           color: white;
           text-align: center;
         }
