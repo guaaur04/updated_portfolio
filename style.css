@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+    }
+  
+  .navbar{
+  background-color: azure;
+  }
+
+  h1 {
+      padding: auto;
+      margin: 6px;
+      border-bottom: 2px solid black;
+      
+  }
+  
+  .container {
+      width: 100%; 
+      margin: 3em;
+      /* border: solid black 3px; 
+      background-color: tan; */
+      color: black;
+      position: relative;
+    
+  }
+  
+  .grid-container {
+    display: inline-block; 
+    background-color:tan;
+    padding: 20px;
+    font-size: 30px;
+    width: 100%;
+    margin: 10px, 10px, 10px, 10px;
+    
+  }
+  
+  
+  #bio-image {
+      width: 100%;
+      float:left;
+      display: inline-flex;
+      margin: 1em;
+  
+      }
+  
+  p {
+    display: flex;
+    text-align: left;
+    float: right;
+    flex-wrap: wrap;
+    
+  }
+  
+  .profile-badge {
+    display: inline-flex;
+    align-items: right;
+    position: relative;
+  }
+  
+  .fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  }
+  
+  /* .fa-linkedin, .fa-instagram {
+    background-color: red;
+    color: white;
+  } */
+  
+  .row-4{
+    float: left;
+  }
+  .image-thumbnail {
+    width: 350px;
+    height: 350px;
+    margin: 10px, 10px, 10px, 10px;
+    float: left;
+  }
+  
+  .footer {
+          position: sticky;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color:royalblue;
+          color: white;
+          text-align: center;
+        }
+  
+    /* @media screen and (max-width: 0px) {
+           .container {
+          width: 100%;
+      }
+    
+    @media screen and (max-width: 576px) {
+          margin-left: 10px; 
+          margin-right: 10px;
+    }
+      } */
