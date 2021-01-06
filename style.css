@@ -4,11 +4,16 @@
     padding: 0;
 
     }
-  
-  .navbar{
-  background-color: #06D6A0;
-  }
 
+/*Navbar*/
+  .navbar{
+  background-color: #2081C3;
+  }
+  
+
+  header{
+    font-size: 6em;
+  }
 
   h1 {
       padding: auto;
@@ -64,22 +69,23 @@
   .fa{
   padding: 20px;
   font-size: 30px;
-  width: 50px;
+  width: 4em;
   text-align: center;
   text-decoration: none;
   }
   
-  /* .fa-linkedin, .fa-instagram {
+  .fa-linkedin, .fa-instagram, .fa-github, .fa-envelope {
     background-color: red;
     color: white;
-  } */
-  
-  .image-thumbnail {
-    width: 350px;
-    height: 350px;
-    margin: 10px, 10px, 10px, 10px;
-    float: left;
+
   }
+
+
+  .fa:hover{
+    background-color: yellow;
+  }
+  
+  
   
   .footer {
           position: sticky;
