@@ -5,14 +5,33 @@
 
     }
 
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
+.main-container {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /*footer height*/  
+}
+
 /*Navbar*/
   .navbar{
-  background-color: #2081C3;
+  background-color: whitesmoke;
   }
   
 
-  header{
-    font-size: 6em;
+  header.navbar-brand{
+    font-size: 40px;
   }
 
   h1 {
@@ -30,6 +49,8 @@
       background-color: tan; */
       color: black;
       position: relative;
+      align-items: center;
+      justify-content: center;
     
   }
   
@@ -57,19 +78,26 @@
     text-align: left;
     float: right;
     flex-wrap: wrap;
-    
+
   }
   
+  /*Styles links*/
+
   .profile-badge {
-    display: inline-flex;
-    align-items: right;
     position: relative;
-  }
+    justify-content: right;
+    display: grid;
+    /* grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; */
+
+    }
   
   .fa{
   padding: 20px;
   font-size: 30px;
-  width: 4em;
+  width: 100%;
   text-align: center;
   text-decoration: none;
   }
@@ -81,29 +109,29 @@
   }
 
 
-  .fa:hover{
-    background-color: yellow;
-  }
-  
+  /* .fa:hover{
+    background-color: #9DD1F1;
+  } */
   
   
   .footer {
-          position: sticky;
           left: 0;
           bottom: 0;
           width: 100%;
           background-color: #118AB2;
-          color: white;
+          color: black;
           text-align: center;
         }
   
-    /* @media screen and (max-width: 0px) {
+    @media screen and (max-width: 0px) {
            .container {
           width: 100%;
       }
+    }
     
     @media screen and (max-width: 576px) {
+          .container {
           margin-left: 10px; 
           margin-right: 10px;
     }
-      } */
+  }
