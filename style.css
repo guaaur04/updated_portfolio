@@ -19,7 +19,7 @@ body {
 .main-container {
   min-height: 100vh;
   overflow: hidden;
-  display: block;
+  display: flex;
   position: relative;
   padding-bottom: 100px; /*footer height*/  
 }
@@ -32,6 +32,8 @@ body {
 
   header.navbar-brand{
     font-size: 40px;
+    float: none;
+    text-align: center;
   }
 
   h1 {
@@ -86,7 +88,8 @@ body {
   .profile-badge {
     position: relative;
     justify-content: right;
-    display: grid;
+    display: block;
+
     /* grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 0px;
