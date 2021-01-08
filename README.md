@@ -2,12 +2,4 @@
 
 Welcome to my updated portfolio!!
 
-Read about .... 
-
-Me
-
-My Projects .... 
-
-& 
-
-Contact Informationl!
+You'll be reading about me, and my projects. 
