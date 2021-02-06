@@ -32,8 +32,8 @@ body {
 }
 
 /*Navbar*/
-  .navbar{
-  background-color: whitesmoke;
+  .navbar {
+  background-color: #F1A208;
   }
   
 
@@ -113,7 +113,10 @@ body {
 
   .resume_links {
     margin-right: 50px;
-    padding: auto;
+    margin-left: 50px;
+    padding: 3em;
+    justify-content: center;
+    display: flex;
   }
 
 
